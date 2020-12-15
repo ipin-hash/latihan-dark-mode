@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/src/css/style.css">
+  <link rel="stylesheet" href="/src/css/switch.css">
+  <link rel="stylesheet" href="/src/css/icon.css">
+  <link rel="stylesheet" href="./src/css/dark-mode.css">  
+
+  <title>Frontend Mentor | Dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+  <header class="container header" id="header">
+    <div class="nav-title">
+      <h1 class="title">Social Media Dashboard</h1>
+      <p class="description">Total Followers: 23,004</p>
+    </div>
+    <div class="toggle">
+        <h3 class="label p"></h3>
+      <div class="switch">
+        <input type="checkbox" class="checkbox" id="checkbox"></input>
+        <span class="slider round"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="sosmed container">
+    <div class="card">
+      <div class="social-media">
+        <figure class="logo">
+          <i class="fab fa-facebook-square"></i>
+        </figure>
+        <h2 class="user-social">@nathanf</h2>
+      </div>
+      <div class="followers">
+        <h1 class="number-followers">1987</h1>
+        <h4 class="text-followers">Followers</h4>
+        <span class="visitors">12 Today</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="social-media">
+        <figure class="logo">
+          <i class="fab fa-twitter"></i>
+        </figure>
+        <h2 class="user-social">@nathanf</h2>
+      </div>
+      <div class="followers">
+        <h1 class="number-followers">1044</h1>
+        <h4 class="text-followers">Followers</h4>
+        <span class="visitors">99 Today</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="social-media">
+        <figure class="logo">
+          <i class="fab fa-instagram"></i>
+        </figure>
+        <h2 class="user-social">@realnathanf</h2>
+      </div>
+      <div class="followers">
+        <h1 class="number-followers">11k</h1>
+        <h4 class="text-followers">Followers</h4>
+        <span class="visitors">1099 Today</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="social-media">
+        <figure class="logo">
+          <i class="fab fa-youtube"></i>
+        </figure>
+        <h2 class="user-social">Nathan F.</h2>
+      </div>
+      <div class="followers">
+        <h1 class="number-followers">1987</h1>
+        <h4 class="text-followers">Subscribers</h4>
+        <span class="visitors red">-144 Today</span>
+      </div>
+    </div>
+  </main>
+  
+  <main class="overview container">
+    <h1 class="title-overview">Overview - Today</h1>
+    <div class="row">
+      <div class="card-overview">
+        <div class="subtitle">
+          <h3>Page Views</h3>
+          <i class="fab fa-facebook-square"></i>
+        </div>
+        <div class="number">
+          <h2 class="number-overview">87</h2>
+          <span class="percent">3%</span>
+        </div>
+      </div>
+      <div class="card-overview">
+        <div class="subtitle">
+          <h3>Likes</h3>
+          <i class="fab fa-facebook-square"></i>
+        </div>
+        <div class="number">
+          <h2 class="number-overview">54</h2>
+          <span class="percent red">-2%</span>
+        </div>
+      </div>
+      <div class="card-overview">
+        <div class="subtitle">
+          <h3>Likes</h3>
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div class="number">
+          <h2 class="number-overview">5462</h2>
+          <span class="percent">2257%</span>
+        </div>
+      </div>
+      <div class="card-overview">
+        <div class="subtitle">
+          <h3>Profile Views</h3>
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div class="number">
+          <h2 class="number-overview">52k</h2>
+          <span class="percent">1375%</span>
+        </div>
+      </div>
+      <div class="card-overview">
+        <div class="subtitle">
+          <h3>Retweets</h3>
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div class="number">
+          <h2 class="number-overview">177</h2>
+          <span class="percent">303%</span>
+        </div>
+      </div>
+      <div class="card-overview">
+        <div class="subtitle">
+          <h3>Likes</h3>
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div class="number">
+          <h2 class="number-overview">507</h2>
+          <span class="percent">553%</span>
+        </div>
+      </div>
+      <div class="card-overview">
+        <div class="subtitle">
+          <h3>Likes</h3>
+          <i class="fab fa-youtube"></i>
+        </div>
+        <div class="number">
+          <h2 class="number-overview">107</h2>
+          <span class="percent red">-19%</span>
+        </div>
+      </div>
+      <div class="card-overview">
+        <div class="subtitle">
+          <h3>Total Views</h3>
+          <i class="fab fa-youtube"></i>
+        </div>
+        <div class="number">
+          <h2 class="number-overview">1407</h2>
+          <span class="percent red">-12%</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="./src/js/darkMode.js"></script>
+  <script src="./src/js/index.js"></script>
+</body>
+</html>

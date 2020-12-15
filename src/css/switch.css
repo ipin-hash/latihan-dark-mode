@@ -1,0 +1,72 @@
+:root  {
+  --color-light-toggle: hsl(230, 22%, 74%);
+  --color-green: hsl(163, 72%, 41%);
+  --color-dark-toggle: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  --very-dark-blue: hsl(232, 19%, 15%);
+  --bg-p:hsl(232, 19%, 15%);
+}
+
+.label {
+  font-weight: 700;
+  color: var(--Dark-Grayish);
+  position: relative;
+}
+
+.checkbox
+{
+  display: inline-block;
+  cursor: pointer;
+  width: 46px;
+  opacity: 0;
+  z-index: 6;
+  height: 27px;
+  position: absolute;
+}
+
+header .switch {
+  display: inline-block;
+  height: 24px;
+  width: 45px;
+  position: relative;
+}
+
+header .switch .slider
+{
+  background-color: var(--color-light-toggle);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+} 
+
+.slider:before {
+  background-color: #fff;
+  bottom: 3px;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 4px;
+  position: absolute;
+  transition: .4s ease-in-out;
+}
+
+input:checked + .slider {
+  background: linear-gradient(to top right, hsl(210, 78%, 56%), hsl(146, 68%, 55%)) ;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+  background-color: var(--very-dark-blue);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+  /* input:checked + .round {
+} */
+

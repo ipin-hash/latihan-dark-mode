@@ -1,0 +1,23 @@
+:root {
+  --color-facebook: hsl(208, 92%, 53%);
+  --color-twitter: hsl(203, 89%, 53%);
+  --color-instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  --color-youTube: hsl(348, 97%, 39%);
+}
+
+.fa-facebook-square {
+  color: var(--color-facebook);
+}
+
+.fa-twitter {
+  color: var(--color-twitter);
+}
+.fa-instagram {
+  background: var(--color-instagram);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.fa-youtube {
+  color: var(--color-youTube);
+}
